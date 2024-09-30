@@ -24,7 +24,7 @@ function MusicCard({ music }: { music: MusicItem }) {
       <div className="flex flex-wrap gap-4">
         {score && (
           <Link href={score}>
-            <Button className="justify-left w-52 gap-2 lg:justify-center">
+            <Button className="w-52 justify-start gap-2 lg:justify-center">
               <Download />
               Baixar Partitura
             </Button>
@@ -33,7 +33,7 @@ function MusicCard({ music }: { music: MusicItem }) {
         <Link href={reference}>
           <Button
             variant="outline"
-            className="justify-left gap-2 lg:justify-center"
+            className="justify-start gap-2 lg:justify-center"
           >
             <Asterisk />
             Assistir referência
@@ -43,7 +43,7 @@ function MusicCard({ music }: { music: MusicItem }) {
           <Link href={audios}>
             <Button
               variant="outline"
-              className="justify-left gap-4 lg:justify-center"
+              className="justify-start gap-4 lg:justify-center"
             >
               <Headphones />
               Áudios para estudo

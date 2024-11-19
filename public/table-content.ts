@@ -47,6 +47,8 @@ export const repertoire: MusicItem[] = [
     name: "Baião de Quatro Toques",
     score: "/baiao.pdf",
     reference: "https://www.youtube.com/watch?v=uDeem9Qjmhk",
+    audios:
+      "https://drive.google.com/drive/folders/1wtzXygIKaYhqfufMXyZo8LZDhn5qIdCs?usp=drive_link",
   },
   {
     name: "Nyon Nyon Nyon",

@@ -7,6 +7,27 @@ export type MusicItem = {
 
 export const repertoire: MusicItem[] = [
   {
+    name: "Kyrie II",
+    reference: "https://www.youtube.com/watch?v=ggnPXtnh9Dw",
+    score: "/kyrie-II.pdf",
+    audios:
+      "https://drive.google.com/drive/folders/1pH3tA_RDJKUk-U8diK-Jf1CqX_syBhc7?usp=sharing",
+  },
+  {
+    name: "Lua, Lua, Lua",
+    reference: "https://www.youtube.com/watch?v=NxpWF-jZUR4",
+    score: "/lua-lua-lua.pdf",
+    audios:
+      "https://drive.google.com/drive/folders/1Sn3zLZcXUBvZ97mAp5sq5ZQoqI0vQRgJ?usp=sharing",
+  },
+  {
+    name: "Baião de Quatro Toques",
+    score: "/baiao.pdf",
+    reference: "https://www.youtube.com/watch?v=uDeem9Qjmhk",
+    audios:
+      "https://drive.google.com/drive/folders/1wtzXygIKaYhqfufMXyZo8LZDhn5qIdCs?usp=drive_link",
+  },
+  {
     name: "Águas de Março",
     score: "/aguas-de-marco.pdf",
     reference: "https://www.youtube.com/watch?v=vRe1AGRyk94",
@@ -28,11 +49,6 @@ export const repertoire: MusicItem[] = [
       "https://drive.google.com/drive/u/1/folders/12bQr_UCshi9MDaFCAbl_Np5t64uAzzy4",
   },
   {
-    name: "Langage",
-    score: "/langage.pdf",
-    reference: "https://www.youtube.com/watch?v=x0OBeMg-bj8",
-  },
-  {
     name: "Suíte dos Pescadores",
     score: "/suite-dos-pescadores.pdf",
     reference: "https://www.youtube.com/watch?v=EOEQjHXgcY0",
@@ -42,17 +58,5 @@ export const repertoire: MusicItem[] = [
   {
     name: "Hymn of the Fayth",
     reference: "https://www.youtube.com/watch?v=FpeqMBG7_7I",
-  },
-  {
-    name: "Baião de Quatro Toques",
-    score: "/baiao.pdf",
-    reference: "https://www.youtube.com/watch?v=uDeem9Qjmhk",
-    audios:
-      "https://drive.google.com/drive/folders/1wtzXygIKaYhqfufMXyZo8LZDhn5qIdCs?usp=drive_link",
-  },
-  {
-    name: "Nyon Nyon Nyon",
-    score: "/nyon.pdf",
-    reference: "https://www.youtube.com/watch?v=WACpvDahUJU",
   },
 ];

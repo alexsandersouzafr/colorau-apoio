@@ -6,6 +6,9 @@ import Link from "next/link";
 export default function RepertoireTable() {
   return (
     <div className="flex flex-col gap-10">
+      <h1 className="text-2xl font-bold uppercase text-black/70">
+        PARTITURAS E ÁUDIOS
+      </h1>
       {repertoire.map((music, i) => (
         <MusicCard key={i} music={music} />
       ))}

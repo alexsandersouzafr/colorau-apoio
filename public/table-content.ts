@@ -35,7 +35,7 @@ export const repertoire: MusicItem[] = [
   {
     name: "Águas de Março",
     score: "/aguas-de-marco.pdf",
-    reference: "https://www.youtube.com/watch?v=vRe1AGRyk94",
+    reference: "https://youtu.be/vRe1AGRyk94?si=yGIkKxPCh01ELYSY",
     audios:
       "https://drive.google.com/drive/u/1/folders/1xzoEccjJtHEGnzZMO-u_7wTav80QIMyB",
   },

@@ -7,9 +7,9 @@ export type MusicItem = {
 
 export const repertoire: MusicItem[] = [
   {
-    name: "Jubiabá",
-    reference: "https://www.youtube.com/watch?v=J4Qiaet0_hM",
-    score: "/jubiaba.pdf",
+    name: "The Promised Land",
+    reference: "https://www.youtube.com/watch?v=vUflrkbmUp8",
+    score: "/thepromisedland.pdf",
   },
   {
     name: "Kyrie II",

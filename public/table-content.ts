@@ -10,6 +10,8 @@ export const repertoire: MusicItem[] = [
     name: "The Promised Land",
     reference: "https://www.youtube.com/watch?v=vUflrkbmUp8",
     score: "/thepromisedland.pdf",
+    audios: 
+      "https://drive.google.com/drive/folders/1npEZRh0EJMBWuG6giOfGyqtNiCbgQ3Zq"
   },
   {
     name: "Kyrie II",
